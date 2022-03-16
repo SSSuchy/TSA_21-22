@@ -1,0 +1,211 @@
+.btnTournament{
+	padding-bottom: 12px;
+}
+.bgTournament{
+	font-size: 120px;
+	text-align: center;
+
+	background-repeat: no-repeat;
+}
+.apexTournament{
+	/*background-image: url('pics/apexBG1.jpg');
+	
+	background-repeat: no-repeat;*/
+	/*height: 400px;*/
+}
+
+/*.hover-mode a:hover{
+	text.color: rgb(200,100,0);
+	background-color: rgb(245,245,0);
+
+}
+.bkg-color{
+	background-color: rgb(200,0,0);
+
+}
+body{
+	background-color: rgb(235,235,235) !important;
+}
+.text-color{
+	color: rgb(68,43,90) !important;
+
+}
+.font-size{
+	font-size: 300% !important;
+}
+.font-size-lower{
+	font-size: 150% !important;
+}
+.text-diff-color{
+	color: #D49331 !important;
+
+
+}
+.pad-left{
+	padding-left: 25px !important;
+}
+.pad-right{
+	padding-right: 25px !important;
+}
+.pad{
+	padding-top: 25px !important;
+	padding-bottom: 25px !important;
+	max-width: 100%;
+}
+.pad-two{
+	padding-top: 70px !important;
+}
+.text-change{
+	color: #D49331 !important;
+}
+.text-color-green{
+	color: rgb(17,166,144) !important;
+}
+.text-color-blue{
+	color: rgb(0,134,162);
+}
+.bg-lightGrey{
+	background-color: rgb(232,236,247) !important;
+
+}
+.padTop{
+	padding-top: 25px !important;
+
+}
+.downImg{
+	display: block;
+	max-width: 75%;
+	height: 75%;
+}
+.font-size-increase{
+	font-size: 150% !important;
+}
+.routine-pad-left{
+	padding-left: 220px !important;
+}
+.routine-pad-right{
+	padding-right: 220px !important;
+}
+.card-img-top2 {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+.text-color-background{
+	color: rgb(235,235,235) !important;
+
+}
+.bg-navbar{
+	background-color: #c4d431 !important;
+}
+.bg-information{
+	background-color: rgb(49, 212, 146,0.55); !important;
+
+}
+
+.bg-mission-statement{
+	background-color: #B200C3 !important;
+}
+.timesFont{
+	font-family: "Times New Roman" !important;
+
+}
+.bg-greyish{
+	background-color: rgb(230,230,230) !important;
+
+}
+.text-rust{
+	color: #D49331 !important;
+
+}
+.header-font{
+	font-family: "Palatino, URW Palladio L, serif" !important
+}
+.text-blueish{
+	color: #4131D4 !important;
+
+}
+.text-green{
+	color: #31D492 !important;
+}
+
+.nav-link {
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  
+  color: #4131D4;
+  padding: 20px 0px;
+  margin: 0px 25px;
+  display: inline-block;
+  position: relative;
+  opacity: 0.9;
+}
+
+.nav-link:hover {
+
+  opacity: 1;
+}
+
+.nav-link::before {
+  transition: 300ms;
+  height: 5px;
+  content: "";
+  position: absolute;
+  background-color: #4131D4;
+}
+
+.nav-link-grow-up::before {
+  height: 0%;
+  width: 100%;
+  bottom: 0px;
+}
+
+.nav-link-grow-up:hover::before {
+  height: 5px;
+}
+.circle {
+  vertical-align: middle;	
+  height: 100px;
+  width: 100px;
+  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+  align-content: center;
+  position: relative;
+   border-radius: 50%;
+  border: 5px solid #31D492;
+}
+.increaseFontSlightly{
+	font-size: 150%;
+}
+.rectangle{
+	height: 80%;
+	width: 100%;
+
+	border-radius: 15%;
+	background-color: white;
+	border: 5px solid #31D492;
+	text-align: center;
+
+}
+.rectTitle{
+	font-size: 140%;
+	color: #4131D4 !important;
+	
+	position: relative;
+
+	
+}
+.rectSub{
+	font-size: 100%;
+	position: relative;
+	
+
+	color: grey;
+
+}
+.text-yellow{
+	
+
+	color: #c4d431;
+}
+*/
