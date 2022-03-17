@@ -1,24 +1,21 @@
 .btnTournament{
 	padding-bottom: 12px;
 }
-.bgTournament{
-	font-size: 120px;
-	text-align: center;
-	padding: 0px;
 
-	background-repeat: no-repeat;
+.nav{
+	background-color: rosybrown;
 }
 
 .gameName{
 	color: white;
 	font-variant-caps: all-small-caps;
-	font-size: 15vh;
+	font-size: 100px;
 	font-weight: 900;
+	
 	letter-spacing: .5rem;
 	padding-left: 200px;
 	padding-right: 200px;
 	
-
 }
 .gameDescription{
 	padding-top: 20px;
