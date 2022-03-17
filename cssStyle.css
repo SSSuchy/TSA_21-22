@@ -12,11 +12,15 @@
 .gameName{
 	color: white;
 	font-variant-caps: all-small-caps;
-	font-size: 120px;
+	font-size: 15vh;
 	font-weight: 900;
 	letter-spacing: .5rem;
 	padding-left: 200px;
 	padding-right: 200px;
+	align-items: center;
+	justify-content: center;
+	word-wrap: break-word;
+
 }
 .gameDescription{
 	padding-top: 20px;
@@ -35,6 +39,14 @@
 
 
 }
+ #introCarousel,
+        .carousel-inner,
+        .carousel-item,
+        .carousel-item.active {
+          height: 50vh;
+          text-align: center;
+        }
+
 .gameButtonsText{
 	font-size: 20px;
 	padding: none;
