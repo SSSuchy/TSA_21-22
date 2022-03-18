@@ -26,133 +26,6 @@
     <!-- MDB -->
     <link rel="stylesheet" href="css/mdb.min.css" />
 	<title>Apex Legends</title>
-		<!-- Navbar -->
-
-
-
-
-
-
-
-
-
-<nav class="navbar navbar-expand-lg navbar-light  nav">
-  <!-- Container wrapper -->
-  <div class="container-fluid">
-    <!-- Toggle button -->
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-mdb-toggle="collapse"
-      data-mdb-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <i class="fas fa-bars"></i>
-    </button>
-
-    <!-- Collapsible wrapper -->
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <!-- Navbar brand -->
-      <a class="navbar-brand mt-2 mt-lg-0" href="#">
-        <img
-          src="https://mdbcdn.b-cdn.net/img/logo/mdb-transaprent-noshadows.webp"
-          height="15"
-          alt="MDB Logo"
-          loading="lazy"
-        />
-      </a>
-      <!-- Left links -->
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link" href="#">Dashboard</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Team</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Projects</a>
-        </li>
-      </ul>
-      <!-- Left links -->
-    </div>
-    <!-- Collapsible wrapper -->
-
-    <!-- Right elements -->
-    <div class="d-flex align-items-center">
-      <!-- Icon -->
-      <a class="text-reset me-3" href="#">
-        <i class="fas fa-shopping-cart"></i>
-      </a>
-
-      <!-- Notifications -->
-      <div class="dropdown">
-        <a
-          class="text-reset me-3 dropdown-toggle hidden-arrow"
-          href="#"
-          id="navbarDropdownMenuLink"
-          role="button"
-          data-mdb-toggle="dropdown"
-          aria-expanded="false"
-        >
-          <i class="fas fa-bell"></i>
-          <span class="badge rounded-pill badge-notification bg-danger">1</span>
-        </a>
-        <ul
-          class="dropdown-menu dropdown-menu-end"
-          aria-labelledby="navbarDropdownMenuLink"
-        >
-          <li>
-            <a class="dropdown-item" href="#">Some news</a>
-          </li>
-          <li>
-            <a class="dropdown-item" href="#">Another news</a>
-          </li>
-          <li>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </li>
-        </ul>
-      </div>
-      <!-- Avatar -->
-      <div class="dropdown">
-        <a
-          class="dropdown-toggle d-flex align-items-center hidden-arrow"
-          href="#"
-          id="navbarDropdownMenuAvatar"
-          role="button"
-          data-mdb-toggle="dropdown"
-          aria-expanded="false"
-        >
-          <img
-            src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
-            class="rounded-circle"
-            height="25"
-            alt="Black and White Portrait of a Man"
-            loading="lazy"
-          />
-        </a>
-        <ul
-          class="dropdown-menu dropdown-menu-end"
-          aria-labelledby="navbarDropdownMenuAvatar"
-        >
-          <li>
-            <a class="dropdown-item" href="#">My profile</a>
-          </li>
-          <li>
-            <a class="dropdown-item" href="#">Settings</a>
-          </li>
-          <li>
-            <a class="dropdown-item" href="#">Logout</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <!-- Right elements -->
-  </div>
-  <!-- Container wrapper -->
-</nav>
-<!-- Navbar -->
 	
 	<head>
 </head>
@@ -161,7 +34,13 @@
 <header>
 	<style>
 		  /* Carousel styling */
-       
+        #introCarousel,
+        .carousel-inner,
+        .carousel-item,
+        .carousel-item.active {
+          height: 45vh;
+        }
+
         .carousel-item:nth-child(1) {
           background-image: url('pics/apexBG2.JPG');
           background-repeat: no-repeat;
@@ -182,7 +61,7 @@
         }
 
         /* Height for devices larger than 576px */
-        /*@media (min-width: 992px) {
+        @media (min-width: 992px) {
           #introCarousel {
             margin-top: -58.59px;
           }
@@ -192,8 +71,7 @@
           .carousel-item.active {
             height: 50vh;
           }
-        }*/
-        
+        }
 	</style>
 </header>
 <header>
@@ -209,8 +87,7 @@
             <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
               <div class="d-flex justify-content-center align-items-center h-100">
                 <div class="text-white text-center">
-                	<h1 class="gameName">Apex Legends</h1>
-                  
+                  <h1 class="gameName">Apex Legends</h1>
                   
                   
                 </div>
@@ -246,7 +123,7 @@
 		<div class="gameDescription" ">
 			
 			<div >
-				Welcome to our annual Apex Legends Tournament! Apex Legends is a multiplayer game where you verse other online players and compete in a battle royal to see who's the last one standing! Register soon as spots fill up fast here at Reclaim the Skies!
+				Chaotic but heavy on skill, Apex Legends is a cutthroat battle royale game that incorperates special agents. Unique gameplay styles arise from each agent's abilities, giving Apex Legends a living metagame that is constantly evolving. Think you have what it takes to become an Apex Predator? Sign up for our trios tournament to test your skills against other rising players! 
 			</div>
 				
 			<div class="gameButtons">
@@ -288,23 +165,23 @@
 						    <div class="detailBody">
 						    	<p class="card-text">
 						    	<li>
-						    		<u>Price:</u> $5 / Player
+						    		<u>Price:</u> $5 per trio
 						    	</li>
 						    	<li>
-						    		<u>Prize:</u> $50
+						    		<u>Prize:</u> test
 						    	</li>
 						    	<li>
-						    		<u>Date:</u> April 1st, 2022
+						    		<u>Date:</u> test
 						    	</li>
 						    	
 						    	<li>
-						    		<u>Time:</u> 9 AM E.S.T
+						    		<u>Time:</u> test
 						    	</li>
 						    	<li>
-						    		<u>Mode:</u> Duos
+						    		<u>Mode:</u> Three preliminary rounds of trios: for each match, a team gains points based on their placement. The top 50% placing teams advance to the finals, <i> the winner of the finals is the grand prize winner. </i> 
 						    	</li> 
 						    	<li>
-						    		<u>Player Size:</u> 2 Players
+						    		<u>Player Size:</u> Max 10 teams or 60 players.
 						    	</li>
 
 						    </p>
