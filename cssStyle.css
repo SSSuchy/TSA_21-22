@@ -9,12 +9,14 @@
 .gameName{
 	color: white;
 	font-variant-caps: all-small-caps;
-	font-size: 15vh;
+	font-size: 125px;
 	font-weight: 900;
 	
 	letter-spacing: .5rem;
 	/*padding-left: 400px;
 	padding-right: 400px;*/
+	padding-left: 20px;
+	padding-right: 20px;
 	text-align: center;
 	align-content: center;
 	
