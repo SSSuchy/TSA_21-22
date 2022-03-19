@@ -1,13 +1,10 @@
-.btnTournament{
-	padding-bottom: 12px;
-}
-
-.nav{
-	background-color: rgb(233, 21, 3);
-}
-
+/*GLOBAL CHANGE WHEN SCREEN SIZE DIFFERS */
 @media (max-width:  600px){ /* if screen is small do this */
 	.gameName{
+		font-size: 12vh;
+		color: white !important;
+	}
+	.signUpTitle{
 		font-size: 12vh;
 		color: white !important;
 	}
@@ -17,7 +14,24 @@
 		font-size: 22vh;
 		color: white; !important;
 	}
+	.signUpTitle{
+		font-size: 18vh;
+		color: white; !important;
+	}
 }
+
+
+
+/*TOURNAMENT CSS */
+.btnTournament{
+	padding-bottom: 12px;
+}
+
+.nav{
+	background-color: rgb(233, 21, 3);
+}
+
+
 
 .gameName{
 	color: white;
@@ -104,22 +118,17 @@
 .styleBullets {
   list-style-type: repeating-emoji;
 }
+
+
+
+
+
+
+/* SIGN UP CSS */
+
 .signUp{
 	background-image: linear-gradient(to bottom right, black, grey,black);
 	color: grey;
-}
-
-@media (max-width:  600px){ /* if screen is small do this */
-	.signUpTitle{
-		font-size: 12vh;
-		color: white !important;
-	}
-}
-@media (min-width:  600px){ /* if screen is big do this */
- 	.signUpTitle{
-		font-size: 18vh;
-		color: white; !important;
-	}
 }
 
 .signUpTitle{
@@ -149,4 +158,20 @@
 }
 .signUpLabel{
 	color: white;
+}
+.signUpInput{
+	font-family: "Arial", Helvetica, sans-serif;
+	
+
+}
+.signUpGame{
+	font-family: "Arial", Helvetica, sans-serif;
+	color: black;
+	font-size: 18px;
+
+}
+.signUpBtn{
+	text-align: center;
+
+
 }
