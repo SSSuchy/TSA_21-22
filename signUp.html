@@ -157,12 +157,12 @@
               <!--   <div class="detailTitle">
                   <p class="card-title ">Details</p>
                 </div> -->
-                <form class="row g-3" >
-                    <div class="row">
+                <form class="row g-3" id="signUpForm" >
+                    <div class="row signUpInput">
                         <div class="col">
                        
                           <div class="form-outline">
-                            <input type="text" id="nameInput" class="form-control" />
+                            <input type="text" id="nameInput" class="form-control form-control-lg" />
                             <label class="form-label" for="nameInput">Full Name</label>
 
                           </div>
@@ -170,7 +170,7 @@
                         <div class="col">
                   
                           <div class="form-outline">
-                            <input type="email" id="emailInput" class="form-control" />
+                            <input type="email" id="emailInput" class="form-control form-control-lg" />
                             <label class="form-label" for="emailInput">Email address</label>
                           </div>
                         </div>
@@ -183,11 +183,12 @@
                         <div class="col-md-6">
                          
                           <div class="form-outline">
-                            <input type="text" id="gamerTagInput" class="form-control" />
+                            <input type="text" id="gamerTagInput" class="form-control form-control-lg" />
                             <label class="form-label" for="gamerTagInput">Gamer Tag</label>
                           </div>
                         </div>
                         <div class="col-md-6">
+                          <div class="signUpGame">Choose Game</div>
                           <div class="form-check">
                             <input class="form-check-input" type="radio" name="flexRadioDefault1" id="valorantBtn"/>
                             <label class="form-check-label" for="valorantBtn"> Valorant </label>
@@ -206,29 +207,35 @@
                           </div>
                         </div>
                         </div>
-                      </div>
+                     
+                   
                       <div class="row">
                         <div class="col-md-6">
                           <div class="form-outline">
-                            <input type="text" id="teamNameInput" class="form-control" />
+                            <input type="text" id="teamNameInput" class="form-control form-control-lg" />
                             <label class="form-label" for="teamNameInput">Team Name</label>
                           </div>
                         </div>
                         <div class="col-md-6">
                         
                           <div class="form-outline">
-                            <input type="email" id="teammateInput" class="form-control" />
+                            <input type="email" id="teammateInput" class="form-control form-control-lg" />
                             <label class="form-label" for="teammateInput">Teammate(s) Gamertag</label>
                           </div>
                         </div>
                       </div>
                       <br>
-                      <div class="col-12 align-items-center justify-content-center">
+                      <hr>
+                      <br>
+                      <div class="row">
+                        <div class="col-md-12 align-items-center justify-content-center signUpBtn">
                          <div id="liveAlertPlaceholder"></div>
-                         <button type="button" class="btn btn-primary align-items-center" id="liveAlertBtn">Submit</button>
+                         <button type="button" class="btn  btn-success  align-items-center text-center btn-lg" id="liveAlertBtn">Submit</button>
+                        </div>
                       </div>
+                      
 
-                </form>
+                
                     
 
 
@@ -236,6 +243,7 @@
                   </div>
                 </div>
               </div>
+              </form>
             </div>
           </div>
         </header>
@@ -281,6 +289,7 @@
         if (alertTrigger) {
           alertTrigger.addEventListener('click', function () {
             alert('Your information has been recorded! Look forward to our email for more details about the event!', 'success')
+            $('#signUpForm').trigger("reset");
           })
         }
 
