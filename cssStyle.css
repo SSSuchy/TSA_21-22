@@ -1,0 +1,152 @@
+.btnTournament{
+	padding-bottom: 12px;
+}
+
+.nav{
+	background-color: rgb(233, 21, 3);
+}
+
+@media (max-width:  600px){ /* if screen is small do this */
+	.gameName{
+		font-size: 12vh;
+		color: white !important;
+	}
+}
+@media (min-width:  600px){ /* if screen is big do this */
+ 	.gameName{
+		font-size: 22vh;
+		color: white; !important;
+	}
+}
+
+.gameName{
+	color: white;
+	font-variant-caps: all-small-caps;
+	/*font-size: 10vh;*/
+	font-weight: 900;
+	
+	letter-spacing: .5rem;
+	/*padding-left: 400px;
+	padding-right: 400px;*/
+	padding-left: 100px;
+	padding-right: 100px;
+	text-align: center;
+	align-content: center;
+	
+}
+.gameDescription{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 80px;
+	padding-right: 80px;
+	color: white; 
+	text-align: center; 
+	font-size: 21px;
+	background-color: black;
+}
+.gameButtons{
+	padding-top: 20px;
+	
+	align-content: center;
+
+
+}
+ #introCarousel,
+        .carousel-inner,
+        .carousel-item,
+        .carousel-item.active {
+          height: 70vh;
+          text-align: center;
+        }
+
+.gameButtonsText{
+	font-size: 20px;
+	padding: none;
+	color: black;
+
+}
+.detail{
+	padding-top: 20px;
+	background-image: linear-gradient(to bottom right, black, grey,black);
+
+	padding-bottom: 20px;
+
+}
+.detailTitle{
+	text-align: center;
+	font-variant-caps: all-small-caps;
+
+	font-weight: 500;
+	letter-spacing: .1rem;
+	color: black;
+	font-size: 60px;
+	
+}
+.detailBody{
+	
+	text-align: center;
+	list-style-position: inside;
+	font-size: 20px;
+	/*font-family: "Gill Sans", sans-serif !important;*/
+	font-family: "Arial", Helvetica, sans-serif;
+	color: black;
+	letter-spacing: .15rem;
+
+}
+
+@counter-style repeating-emoji {
+  text-align: center;
+  symbols: "\1F4B2" "\1F947" "\1F4C5" "\1F55B" "\2B55" "\1F46F" "\1F3B2"; 
+  suffix: " ";
+}
+
+
+.styleBullets {
+  list-style-type: repeating-emoji;
+}
+.signUp{
+	background-image: linear-gradient(to bottom right, black, grey,black);
+	color: grey;
+}
+
+@media (max-width:  600px){ /* if screen is small do this */
+	.signUpTitle{
+		font-size: 12vh;
+		color: white !important;
+	}
+}
+@media (min-width:  600px){ /* if screen is big do this */
+ 	.signUpTitle{
+		font-size: 18vh;
+		color: white; !important;
+	}
+}
+
+.signUpTitle{
+	color: white;
+	font-variant-caps: all-small-caps;
+	/*font-size: 10vh;*/
+	font-weight: 900;
+	
+	letter-spacing: .5rem;
+	/*padding-left: 400px;
+	padding-right: 400px;*/
+	padding-left: 100px;
+	padding-right: 100px;
+	text-align: center;
+	align-content: center;
+	
+}
+.signUpDesBG{
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-size: 21px;
+}
+.signUpDes{
+	padding: 20px;
+
+}
+.signUpLabel{
+	color: white;
+}
