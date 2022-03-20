@@ -12,6 +12,11 @@
 		font-size: 12vh;
 		color: white !important;
 	}
+	.faqHeaderText{
+		font-size: 12vh;
+		color: white !important;
+	}
+
 	.headline{
 		font-size: 8vh;
 	}
@@ -30,10 +35,27 @@
 		font-size: 18vh;
 		color: white; !important;
 	}
+	.faqHeaderText{
+		font-size: 18vh;
+		color: white; !important;
+	}
 	.headline{
 		font-size: 12vh;
 	}
+	.
 }
+:root{
+  --main-bg-color: #8136F6;
+  --secondary-bg-color: black;
+  
+}
+
+
+
+
+
+
+
 
 
 
@@ -96,9 +118,19 @@
 }
 .detail{
 	padding-top: 20px;
-	background-image: linear-gradient(to bottom right, black, grey,black);
+	background-image: linear-gradient(to bottom right, var(--main-bg-color),var(--secondary-bg-color));
 
 	padding-bottom: 20px;
+
+}
+.gameCard{
+	background-color: rgb(255, 255, 255, 0.4) !important;
+
+}
+.gameCard:hover{
+	background-color: rgb(255, 255, 255, 0.9) !important;
+	overflow: hidden;
+	transition: background-color 0.2s;
 
 }
 .detailTitle{
@@ -142,7 +174,7 @@
 /* SIGN UP CSS */
 
 .signUp{
-	background-image: linear-gradient(to bottom right, black, grey,black);
+	background-image: linear-gradient(to bottom right, var(--main-bg-color), var(--secondary-bg-color));
 	color: grey;
 }
 
@@ -194,7 +226,8 @@
 /*NEWS CSSSS*/
 
 .newsHeader{
-	background-image: linear-gradient(to bottom right, yellow, black, yellow);
+	/*background-image: linear-gradient(to bottom right, yellow, black, yellow);*/
+	background-image: linear-gradient(to bottom right,var(--main-bg-color), var(--secondary-bg-color));
 	color: grey;
 	color: white;
 	font-variant-caps: all-small-caps;
@@ -288,12 +321,46 @@
 	justify-content: center;
 	text-align: center;
 }
-/*.actualBtn{
-	   top:200px;
-    position:fixed;
-   
-    height: 0px;
-    background-color: #000;
-    color:#fff;
 
-}*/
+
+
+
+
+/* FAQ PAGE */
+.faqHeader{
+	background-image: linear-gradient(to bottom right,var(--main-bg-color), var(--secondary-bg-color));
+	color: grey;
+	color: white;
+	font-variant-caps: all-small-caps;
+	/*font-size: 10vh;*/
+	font-weight: 900;
+	
+	letter-spacing: .5rem;
+	/*padding-left: 400px;
+	padding-right: 400px;*/
+	padding-left: 100px;
+	padding-right: 100px;
+	text-align: center;
+	align-content: center;
+}
+.allFAQ{
+
+}
+.faqLeftImg{
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+
+}
+.faqRightImg{
+		padding-left: 20px;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	
+}
+.faqMain{
+
+
+}
