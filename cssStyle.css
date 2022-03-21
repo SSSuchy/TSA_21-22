@@ -42,11 +42,12 @@
 	.headline{
 		font-size: 12vh;
 	}
-	.
+	
 }
 :root{
   --main-bg-color: #8136F6;
   --secondary-bg-color: black;
+  --offBlack: #1a1915;
   
 }
 
@@ -165,7 +166,16 @@
 .styleBullets {
   list-style-type: repeating-emoji;
 }
+.gameVid{
+	padding: 50px;
+	background-image: linear-gradient(to bottom right, var(--main-bg-color), var(--secondary-bg-color));
 
+}
+.gameActualVid{
+	height: auto;
+	width: 100%;
+
+}
 
 
 
@@ -328,7 +338,8 @@
 
 /* FAQ PAGE */
 .faqHeader{
-	background-image: linear-gradient(to bottom right,var(--main-bg-color), var(--secondary-bg-color));
+	background: radial-gradient(var(--main-bg-color), var(--secondary-bg-color)) !important;
+	/*background-color: var(--main-bg-color) !important;*/
 	color: grey;
 	color: white;
 	font-variant-caps: all-small-caps;
@@ -344,7 +355,7 @@
 	align-content: center;
 }
 .allFAQ{
-
+	background: radial-gradient(var(--main-bg-color), var(--secondary-bg-color)) !important;
 }
 .faqLeftImg{
 	padding-left: 20px;
@@ -362,5 +373,12 @@
 }
 .faqMain{
 
+	padding-top: 20px;
 
+}
+.accordianTitle{
+	background: radial-gradient(var(--main-bg-color), var(--secondary-bg-color)) !important;
+	/*background-color: var(--main-bg-color) !important;*/
+	font-size: 30px !important;
+	color: white !important;
 }
