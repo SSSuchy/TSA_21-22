@@ -1,0 +1,700 @@
+/*GLOBAL CHANGE WHEN SCREEN SIZE DIFFERS */
+@media (max-width:  600px){ /* if screen is small do this */
+	.gameName{
+		font-size: 12vh;
+		color: white !important;
+	}
+	.signUpTitle{
+		font-size: 12vh;
+		color: white !important;
+	}
+	.news{
+		font-size: 12vh;
+		color: white !important;
+	}
+	.faqHeaderText{
+		font-size: 12vh;
+		color: white !important;
+	}
+
+	.headline{
+		font-size: 8vh;
+	}
+}
+@media (min-width:  600px){ /* if screen is big do this */
+ 	.gameName{
+		font-size: 22vh;
+		color: white; !important;
+	}
+	.signUpTitle{
+		font-size: 18vh;
+		color: white; !important;
+
+	}
+	.news{
+		font-size: 18vh;
+		color: white; !important;
+	}
+	.faqHeaderText{
+		font-size: 18vh;
+		color: white; !important;
+	}
+	.headline{
+		font-size: 12vh;
+	}
+	
+}
+:root{
+  --main-bg-color: #B41744;
+  --secondary-bg-color: black;
+  --offBlack: #1a1915;
+  --faqBG:  #eeeeee;
+  
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+
+
+
+
+
+
+
+
+
+/*TOURNAMENT CSS */
+.btnTournament{
+	padding-bottom: 12px;
+}
+
+
+
+
+
+.gameName{
+	color: white;
+	font-variant-caps: all-small-caps;
+	/*font-size: 10vh;*/
+	font-weight: 900;
+	
+	letter-spacing: .5rem;
+	/*padding-left: 400px;
+	padding-right: 400px;*/
+	padding-left: 100px;
+	padding-right: 100px;
+	text-align: center;
+	align-content: center;
+	overflow: visible;
+	
+}
+.gameDescription{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 80px;
+	padding-right: 80px;
+	color: white; 
+	text-align: center; 
+	font-size: 21px;
+	background-color: black;
+}
+.gameButtons{
+	padding-top: 20px;
+	
+	align-content: center;
+
+
+}
+ #introCarousel,
+        .carousel-inner,
+        .carousel-item,
+        .carousel-item.active {
+          height: 70vh;
+          text-align: center;
+          overflow: visible;
+        }
+
+.gameButtonsText{
+	font-size: 20px;
+	padding: none;
+	color: black;
+
+}
+.detail{
+	padding-top: 20px;
+	background-image: linear-gradient(to bottom right, var(--main-bg-color),var(--secondary-bg-color));
+
+	padding-bottom: 20px;
+
+}
+.gameCard{
+	background-color: rgb(255, 255, 255, 0.5) !important;
+
+}
+.gameCard:hover{
+	background-color: rgb(255, 255, 255, 0.9) !important;
+	overflow: hidden;
+	transition: background-color 0.2s;
+
+}
+.detailTitle{
+	text-align: center;
+	font-variant-caps: all-small-caps;
+
+	font-weight: 500;
+	letter-spacing: .1rem;
+	color: black;
+	font-size: 60px;
+	
+}
+.detailBody{
+	
+	text-align: center;
+	list-style-position: inside;
+	font-size: 20px;
+	/*font-family: "Gill Sans", sans-serif !important;*/
+	font-family: "Arial", Helvetica, sans-serif;
+	color: black;
+	letter-spacing: .15rem;
+
+}
+
+@counter-style repeating-emoji {
+  text-align: center;
+  symbols: "\1F4B2" "\1F947" "\1F4C5" "\1F55B" "\2B55" "\1F46F" "\1F3B2"; 
+  suffix: " ";
+}
+
+
+.styleBullets {
+  list-style-type: repeating-emoji;
+}
+.gameVid{
+	padding: 50px;
+	/*background-image: linear-gradient(to bottom right, var(--main-bg-color), var(--secondary-bg-color));*/
+
+}
+.gameActualVid{
+	height: auto;
+	width: 100%;
+
+}
+
+
+
+
+
+/* SIGN UP CSS */
+
+.signUp{
+	background-image: linear-gradient(to bottom right, var(--main-bg-color), var(--secondary-bg-color));
+	color: grey;
+}
+
+.signUpTitle{
+	color: white;
+	font-variant-caps: all-small-caps;
+	/*font-size: 10vh;*/
+	font-weight: 900;
+	
+	letter-spacing: .5rem;
+	/*padding-left: 400px;
+	padding-right: 400px;*/
+	padding-left: 100px;
+	padding-right: 100px;
+	text-align: center;
+	align-content: center;
+	
+}
+.signUpDesBG{
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-size: 21px;
+}
+.signUpDes{
+	padding: 20px;
+
+}
+.signUpLabel{
+	color: white;
+}
+.signUpInput{
+	font-family: "Arial", Helvetica, sans-serif;
+	
+
+}
+.signUpGame{
+	font-family: "Arial", Helvetica, sans-serif;
+	color: black;
+	font-size: 18px;
+
+}
+.signUpBtn{
+	text-align: center;
+
+
+}
+
+/*NEWS CSSSS*/
+
+.newsHeader{
+	/*background-image: linear-gradient(to bottom right, yellow, black, yellow);*/
+	background-image: linear-gradient(to bottom right,var(--main-bg-color), var(--secondary-bg-color));
+	color: grey;
+	color: white;
+	font-variant-caps: all-small-caps;
+	/*font-size: 10vh;*/
+	font-weight: 900;
+	
+	letter-spacing: .5rem;
+	/*padding-left: 400px;
+	padding-right: 400px;*/
+	padding-left: 100px;
+	padding-right: 100px;
+	text-align: center;
+	align-content: center;
+}
+/*.newsHeadline{
+	background-color: white;
+
+}*/
+.headline{
+	font-variant-caps: all-small-caps;
+	text-align: center;
+	color: white;
+
+
+}
+.newsBg{
+	height: 60vh;
+	background-image: url(pics/gamer.jpg);
+	background-color: rgb(0, 0, 0,0.9);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.headlineDes{
+	color: white;
+	text-align: center;
+	align-content: center;
+	font-size: 18px;
+}
+.author{
+	color: black;
+	font-size: 15px;
+	font-weight: 650;
+}
+.infoBadge{
+	font-size: 14px !important;
+	letter-spacing: .05rem !important;
+	font-weight: 500 !important;
+	text-transform: uppercase;
+
+
+}
+.date{
+	color: grey !important;
+	font-weight: 300 !important;
+	font-size: 14px !important;
+	padding-left: 20px;
+
+}
+.subHeader{
+	color: black;
+	font-size: 24px;
+	letter-spacing: .15rem;
+	font-weight: 700;
+}
+.newsText{
+	font-size: 14px;
+	color: grey;
+	line-height: 2;
+
+}
+.newsTextAll{
+	align-content: center;
+	justify-content: center;
+	align-items: middle;
+
+}
+.otherPages{
+	text-align: center;
+	justify-content: center;
+	align-content: center;
+	color: black !important;
+	font-size: 20px !important;
+	text-transform: uppercase !important;
+	letter-spacing: .15rem !important;
+	font-weight: 700 !important;
+}
+.otherBtn{
+	letter-spacing: .1rem;
+	align-content: center;
+	justify-content: center;
+	text-align: center;
+	padding-top: 30px !important;
+
+}
+
+
+
+
+
+/* FAQ PAGE */
+.faqHeader{
+	background-image: linear-gradient(var(--main-bg-color), var(--faqBG)) !important;
+	/*background-color: var(--main-bg-color) !important;*/
+	color: grey;
+	color: white;
+	font-variant-caps: all-small-caps;
+	/*font-size: 10vh;*/
+	font-weight: 900;
+	
+	letter-spacing: .5rem;
+	/*padding-left: 400px;
+	padding-right: 400px;*/
+	padding-left: 100px;
+	padding-right: 100px;
+	text-align: center;
+	align-content: center;
+}
+.allFAQ{
+	/*background: radial-gradient(var(--main-bg-color), var(--secondary-bg-color)) !important;*/
+	background-color: var(--faqBG) !important;
+}
+.faqLeftImg{
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+
+}
+.faqRightImg{
+		padding-left: 20px;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	
+}
+.faqMain{
+
+	padding-top: 20px;
+
+}
+.accordianTitle{
+	/*background: radial-gradient(var(--main-bg-color), var(--secondary-bg-color)) !important;*/
+	/*background-color: var(--main-bg-color) !important;*/
+	background-color: var(--faqBG) !important;
+	font-size: 30px !important;
+	color: black !important;
+}
+.accordianText{
+	font-size: 25px !important;
+	background-color: var(--faqBG) !important;
+	color: black !important;
+}
+
+
+
+
+/*Home Page*/
+.homeVid{
+/*	padding: 100px;*/
+	height: auto;
+	width: 100%;
+
+}
+.homeActualVid{
+	position: absolute;
+  width: 100%;
+  height: auto;
+ 
+}
+.homeImg{
+	position:absolute;
+  align-content: center;
+  justify-content: center;
+  width:100%;
+  height:auto;
+  /*object-fit:cover;
+  pointer-events:none;*/
+  z-index:30000;
+  
+}
+.dummyText{
+	/*position: absolute;*/
+}
+
+/*.video-wrapper {
+    margin: 6em auto 0;
+    max-width: 720px;
+    min-width: 320px;
+    position: relative;
+}
+.video-wrapper:video {
+  height: auto;
+  vertical-align: middle;
+  width: 100%;
+}
+.video-description {
+	position: absolute;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}*/
+/*.newHomeVidBG{
+	width: 100% !important;
+	height: 50% !important;
+	z-index: -99 !important;
+	background-attachment: fixed !important;
+	overflow-y: hidden !important;
+
+  /*background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+.homeHeader{
+  position: relative;
+  background-color: black;
+  height: 80vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+  background-attachment: fixed !important;
+}
+
+.homeHeaderVid {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background-attachment: fixed !important;
+}
+
+
+.homeContainer {
+  position: relative;
+  padding: none !important;
+  z-index: 2;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  text-align:center !important;
+  width:100% !important;
+  display:block !important;
+  margin:auto !important;
+  background-attachment: fixed !important;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.1;
+  z-index: 1;
+  background-attachment: fixed !important;
+}
+
+/* Media Query for devices withi coarse pointers and no hover functionality */
+
+/* This will use a fallback image instead of a video for devices that commonly do not support the HTML5 video element */
+
+/*@media (pointer: coarse) and (hover: none) {
+  .homeHeader {
+    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+    background-attachment: fixed !important;
+  }
+
+  .homeHeaderVid {
+    display: none;
+  }
+}*/
+.newHomeImgBG{
+	
+	overflow-y: hidden !important;
+
+  
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.missionStatement{
+	font-size: 30px;
+	padding: 50px;
+	font-style: italic;
+	font-weight: 200px;
+	text-align: center;
+	letter-spacing: .2rem;
+	background-color: var(--main-bg-color); !important;
+	color: white;
+	/*background-color: yellow;*/
+/*	display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  
+  color: black;*/
+  /*animation: fadeIn linear 2s;
+  -webkit-animation: fadeIn linear 2s;
+  -moz-animation: fadeIn linear 2s;
+  -o-animation: fadeIn linear 2s;
+  -ms-animation: fadeIn linear 2s;*/
+}
+/*.fade {
+  
+  background-color: lightgreen;
+  opacity: 1;
+}*/
+
+.collab{
+	padding: 20px;
+}
+.featureTournament{
+	padding: 20px;
+}
+.collabTitle{
+	color: black;
+	font-size: 22px;
+	font-weight: 500;
+	text-align: center;
+
+}
+.featureTitle{
+	color: black;
+	font-size: 22px;
+	font-weight: 500;
+	text-align: center;
+
+
+}
+.homeGameImg{
+	width: 100%;
+	height: auto;
+	  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain	!important;
+  padding: 20px;
+  background-color: black;
+}
+
+.navTop{
+	font-size: 30px ;
+	text-align: center;
+	color: white !important;
+	padding-right: 20px;
+	background-color: black !important;
+
+	box-shadow: inset 0 0 0 0 #54b3d6;
+	/*transition: color .3s ease-in-out, box-shadow;*/
+
+
+
+	
+
+}
+a{
+	
+	  color: white !important;
+	box-shadow: inset 0 0 0 0 var(--main-bg-color) !important;
+	transition: color .8s ease-in-out, box-shadow .8s ease-in-out !important;
+
+}
+a:hover{
+	/*color: var(--main-bg-color) !important;*/
+	box-shadow: inset 999px 0 0 0 var(--main-bg-color) !important; 
+}
+/*.navTop:hover{
+	color: var(--main-bg-color) !important;
+	background-color: black;
+	box-shadow: inset 0 0 0 0 #54b3d6;
+	box-shadow: inset 300px 0 0 0 #54b3d6;
+	transition: box-shadow, 2s;
+
+  color: white;
+
+	  color: white;
+}*/
+
+.navAllTop{
+	overflow: visible;
+	box-shadow:0 20px 20px -2px blue;;
+	z-index: 90000;
+	padding-right: 30px !important;
+
+
+}
+.nav{
+	background-color: black;
+	font-size: 25px ;
+	font-weight: 800px !important;
+	/*color: white;
+*/
+
+	
+
+}
+.navImg{
+	   position: relative;
+    background: url(pics/logoMini.png);
+    width: 170px;
+    left: 15px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-height: 70px;
+    overflow: visible;
+    transition: none !important;
+    
+
+
+}
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: grey !important;
+    border: 1px solid grey !important;
+    border-radius: 0.25rem;
+    transition: box-shadow .15s ease-in-out;
+}
+.navImg:hover{
+	box-shadow: none !important;
+}
