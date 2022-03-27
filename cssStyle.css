@@ -25,10 +25,10 @@
   
 	}
 	.homeAboutMain{
-		font-size: 6vh !important;
+		font-size: 5vh !important;
 	}
 	.homeAboutNum{
-		font-size: 9vh !important;
+		font-size: 8vh !important;
 	}
 }
 
@@ -698,7 +698,7 @@
 
 
 .homeAboutSubText{
-	color: white;
+	color: yellow;
 	text-align: center;
 	font-size: 20px;
 	letter-spacing: .2rem;
