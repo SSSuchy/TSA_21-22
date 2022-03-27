@@ -1,7 +1,7 @@
 /*GLOBAL CHANGE WHEN SCREEN SIZE DIFFERS  //////////////////////////////////////////////////////////////////////////////////////*/
 @media (max-width:  600px){ /* if screen is small do this */
 	.gameName{
-		font-size: 12vh !important;
+		font-size: 11vh !important;
 		color: yellow; !important;
 	}
 	.signUpTitle{
