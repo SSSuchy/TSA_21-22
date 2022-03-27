@@ -1,8 +1,8 @@
 /*GLOBAL CHANGE WHEN SCREEN SIZE DIFFERS  //////////////////////////////////////////////////////////////////////////////////////*/
 @media (max-width:  600px){ /* if screen is small do this */
 	.gameName{
-		font-size: 12vh;
-		color: white !important;
+		font-size: 12vh !important;
+		color: yellow; !important;
 	}
 	.signUpTitle{
 		font-size: 12vh;
@@ -23,6 +23,12 @@
 	.homeImg{
 		max-width: 50vh !important;
   
+	}
+	.homeAboutMain{
+		font-size: 6vh !important;
+	}
+	.homeAboutNum{
+		font-size: 9vh !important;
 	}
 }
 
@@ -53,6 +59,12 @@
 	.homeImg{
 		max-width: 100vh;
   
+	}
+	.homeAboutMain{
+		font-size: 8vh;
+	}
+	.homeAboutNum{
+		font-size: 11vh !important;
 	}
 	
 }
@@ -660,14 +672,15 @@
 
 }
 .homeAboutMain{
-	font-size: 50px;
+	
 	letter-spacing: .2rem;
 	text-align: center;
 	color: var(--main-bg-color);
 	font-family: "fantasy",Copperplate;
 	font-weight: 700;
 	text-transform: uppercase;
-
+	padding-left: 20px !important;
+	padding-right: 20px !important;
 	transition: transform .4s;
 }
 .homeAboutMain:hover{
@@ -676,7 +689,7 @@
 }
 
 .homeAboutNum{
-	font-size: 70px !important;
+	
 	color: white !important;
 
 }
@@ -899,12 +912,12 @@
 .navTopLink:hover{
 	background-position: left !important;
 }
-@media all and (min-width: 992px) {
+/*@media all and (min-width: 992px) {
 	.navbar .nav-item .dropdown-menu{ display: none; }
 	.navbar .nav-item:hover .nav-link{   }
 	.navbar .nav-item:hover .dropdown-menu{ display: block; }
 	.navbar .nav-item .dropdown-menu{ margin-top:0; }
-}
+}*/
 .btnColorTournament{
 		
 	
