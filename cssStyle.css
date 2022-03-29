@@ -58,6 +58,10 @@
 	.veHeadline{
 		font-size: 8vh !important;
 	}
+	.faqBody{
+		font-size: 18px !important;
+		line-height: 3.5vh !important;
+	}
 
 }
 
@@ -494,7 +498,7 @@
 	background-color: var(--faqBG) !important;
 	font-family: "Trebuchet MS";
 	font-weight: 900 !important;
-	line-height: 4rem !important;
+	line-height: 4rem ;
 	color: blue !important;
 }
 .faqLeftImg{
@@ -527,7 +531,7 @@
 	color: black !important;
 }
 .accordianText{
-	font-size: 25px !important;
+	font-size: 25px ;
 	background-color: var(--faqBG) !important;
 	color: black !important;
 }
