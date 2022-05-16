@@ -96,6 +96,15 @@
 }
 
 
+@media (max-width: 1440px){
+	.gallery-wrap{
+		display: none !important;
+	}
+	.faqHeader2{
+		display: none !important;
+	}
+}
+
 
 
 
